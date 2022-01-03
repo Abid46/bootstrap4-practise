@@ -1,0 +1,191 @@
+
+        html{
+                scroll-behavior: smooth;
+        }
+       
+        header{
+                background-image: url(image-from-rawpixel-id-593109-jpeg.jpg);
+                background-position: center; background-attachment: fixed;
+                background-repeat: no-repeat; background-size: cover;
+        }
+        .navbar{
+                padding: 1% 7%; background-color: rgba(255, 255, 255, 0.801);
+        }
+        .navbar-icon{
+                color: rgb(25, 0, 255);
+        }
+        .nav-link{
+                margin: 10px; border-radius: 5px; transition: .5s;
+                /* color: black; */
+        }
+        .nav-link:hover{
+                background: rgb(5, 26, 26); color: rgb(255, 255, 255); transform: scale(1.1);
+        }
+        .banner-container{
+                height: 100vh;
+        }
+        .banner-container h1{
+                font-size: 4rem;
+                background-color: rgba(243, 236, 236, 0.575); padding: 10px 20px; border-radius: 8px;
+                font-family: 'Andada Pro', serif; font-family: 'Titillium Web', sans-serif;
+        }
+        /* .navbar-brand-img{
+                height: 70px;
+                width: 70px;
+        }
+        .navbar-brand-img:hover{
+                height: 75px;
+                width: 75px;
+        } */
+                /* hader End */
+        
+        .hr-style{
+                border: 5px dotted white; border-bottom: none; width: 60px;
+
+        }
+        .section-title h3{
+                font-weight: bolder; margin-bottom: 0;
+        }
+
+                /* features     start here  */
+
+        #features{
+                padding: 5% 10%; background-color: #FCFFA6;
+        }
+        .features-col{
+                border: 2px solid #CAB8FF; padding: 10px; margin: 20px 0; transition: .5s;
+        }
+        .features-col:hover{
+                transform: scale(1.1); box-shadow: 2px 6px 5px black;
+        }
+        .icon-style{
+                background: #CAB8FF; color: rgb(88, 69, 69); padding: 15px; margin: 5px 0px;
+        }
+                /* features End  */
+
+                /* !-- about me section        start here -->*/
+        #about-me{
+                padding: 5% 10%; background-color: #FCFFA6;
+        }
+        #about-me p{
+                font-size: 0.9rem; margin-bottom: 0; font-weight: light;
+        }
+        #about-me a{
+                font-size: 00.9rem; font-weight: lighter; color: rgb(19, 31, 189);
+                text-decoration: underline;
+        }
+        .achive-desc span{
+                font-weight: 700 !important;
+        }
+        .star{
+                width: 20px;
+        }
+                              /* <!-- about me section        End here --> */
+
+                /* card    tutorial section     start here */
+        #tutorial{
+                padding: 4% 10%;
+                background: #c1ffd7e1;
+        }
+        .card{
+                transition: .5s;
+                background-color: #c1ffd7e1;
+                border: 2px solid #a53b82;
+        }
+        .card:hover{
+                transform: scale(1.1);
+                box-shadow: 2px 6px 5px black;
+
+        }
+                /* card    tutorial section     end here */
+
+                /* feedback section        Start here */
+        #feedback{
+                padding: 5%;
+                background: #B5DEFF;
+        }
+        .feedback-img{
+                width: 150px;
+                height: auto;
+                margin-bottom: 5px;
+        }
+        .carousel-item{
+                text-align: center;
+                padding: 7% 15%;
+                font-style: italic;
+                font-size: 1.2rem;
+        }
+        
+                /* feedback section        End here */
+
+                /* contact me section      start here */
+        #contact-me{
+                padding: 2% 10%;
+                background: #B5DEFF;
+        }
+        .form-group label{
+                margin-bottom: 0;
+                font-weight: bold;
+                margin: 0 auto;
+        }
+                /* contact me section      end here */
+
+        /* footer          start here */
+        footer{
+                padding: 1% 10%;
+                background: #FCFFA6;
+        }
+        footer a{
+                margin: 0 10px;
+        }
+        footer a:hover{
+                color: black;
+        }
+        /* footer          end here */
+
+
+        @media (max-width:768px){
+                .banner-container h1{
+                        font-size: 2.5rem;
+                }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .font{
+        background-color: black; color: rgb(255, 255, 255); font-size: 50px;
+} */
+
+
+.backgrou1{
+        background-color: rgb(34, 34, 226);
+}
+.backgrou2{
+        background-color: rgb(224, 194, 83);
+}
+.backgrou3{
+        background-color: rgb(229, 61, 61);
+}
+.backgrou4{
+        background-color: rgb(49, 207, 162);
+}
